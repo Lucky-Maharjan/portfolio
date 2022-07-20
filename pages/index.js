@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Head from "next/head";
 import Hero from "../components/UI/Hero";
 
 import About from "../components/UI/About";
@@ -9,6 +10,12 @@ import Contact from "../components/UI/Contact";
 
 export default function Home() {
   return (
+    <div>
+    <Head>
+        <title>Smriti Maharjan</title>
+
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <Fragment>
       <Hero />
       <Services />
@@ -17,5 +24,6 @@ export default function Home() {
       <Portfolio />
       <Contact />
     </Fragment>
+    </div>
   );
 }
