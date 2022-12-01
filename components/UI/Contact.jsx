@@ -25,7 +25,7 @@ const Contact = () => {
                 <span>
                   <i className="ri-tv-2-line"></i>
                 </span>
-                <p>www.maharjansmriti.com.np</p>
+                <p>www.smriti-maharjan.com.np</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span >
@@ -43,7 +43,7 @@ const Contact = () => {
               <Link href="https://www.github.com" target="_blank">
                 <i className="ri-github-fill"></i>
               </Link>
-              <Link href="https://www.linkedin.com/in/lucky-maharjan-6bbaa51ba/" target="_blank">
+              <Link href="https://www.linkedin.com/in/smriti-maharjan-215271253/" target="_blank">
                 <i className="ri-linkedin-box-fill"></i>
               </Link>
             </div>
