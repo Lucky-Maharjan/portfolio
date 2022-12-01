@@ -19,16 +19,16 @@ const About = () => {
             <p>
             Hello again! Thanks for scrolling this far!!<br/>
                 I started out using HTML and CSS. I am also familiar
-                with some programming languages, including C, C#, and the Unity Game Engine.
-                I'm currently researching design and intend to pursue a profession in the field of
+                with some programming languages, including Python, C, C#, JS, and the Unity Game Engine.
+                I&apos;m currently researching design and intend to pursue a profession in the field of
                 development and design.
-                I'm interested in game and website development, as well as UI/UX design.<br/>
+                I&apos;m interested in game and website development, as well as UI/UX design.<br/>
 </p>
           </Col>
           <Col lg="6" className={`${classes.about__content2}`}>
             <div className="mt-20"><center>
 <br/>
-            <p>I've never worked for a client. As part of a project, I made a couple games and webpages.
+            <p>I&apos;ve never worked for a client. As part of a project, I made a couple games and webpages.
             I am putting a lot of effort into my goal of becoming a game developer.
                 </p>
                 <br/>

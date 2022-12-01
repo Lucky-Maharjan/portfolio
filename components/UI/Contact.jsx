@@ -25,7 +25,7 @@ const Contact = () => {
                 <span>
                   <i className="ri-tv-2-line"></i>
                 </span>
-                <p>www.smriti-maharjan.com.np</p>
+                <p>www.maharjansmriti.com.np</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span >

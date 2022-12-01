@@ -18,7 +18,7 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m Smriti Maharjan</h2>
               <h5 className="mb-4"> Developer</h5>
               <p>
-              Hi, I work as a front-end web developer and a game developer in my career.
+              Hi, I work as a web developer and a game developer in my career.
               </p>
 
               <div className={`${classes.social__links}`}>
@@ -30,7 +30,7 @@ const Hero = () => {
               <Link href="https://www.github.com" target="_blank">
                 <i className="ri-github-fill"></i>
               </Link>
-              <Link href="https://www.linkedin.com" target="_blank">
+              <Link href="https://www.linkedin.com/in/smriti-maharjan-215271253/" target="_blank">
                 <i className="ri-linkedin-box-fill"></i>
               </Link>
 
