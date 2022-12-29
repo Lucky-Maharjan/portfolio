@@ -11,6 +11,7 @@ import Css from '../../public/skills/css.png';
 import Github from '../../public/skills/github1.png';
 import Csharp from '../../public/skills/Csharp.png';
 import Unity from '../../public/skills/unity.png';
+import Python from '../../public/skills/python.png';
 
 const Testimonial = () => {
   const settings = {
@@ -93,6 +94,16 @@ const Testimonial = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h2>Github</h2>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Python} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h2>Python</h2>
               </div>
             </div>
           </div>
