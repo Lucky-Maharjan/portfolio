@@ -25,25 +25,27 @@ const Contact = () => {
                 <span>
                   <i className="ri-tv-2-line"></i>
                 </span>
-                <p>www.smriti-maharjan.com.np</p>
+                <p>www.maharjansmriti.com.np</p>
               </li>
               <li className={`${classes.info__item}`}>
-                <span >
-                  <i className="ri-mail-line" ></i>
+                <span>
+                  <i className="ri-mail-line"></i>
                 </span>
                 <p>smritimhj_2000@hotmail.com</p>
               </li>
-
             </ul>
 
             <div className={`${classes.social__links}`}>
-            <Link href="mailto:smriti_mhj2000@hotmail.com" target="_blank">
+              <Link href="mailto:smriti_mhj2000@hotmail.com" target="_blank">
                 <i className="ri-mail-fill"></i>
               </Link>
               <Link href="https://www.github.com" target="_blank">
                 <i className="ri-github-fill"></i>
               </Link>
-              <Link href="https://www.linkedin.com/in/smriti-maharjan-215271253/" target="_blank">
+              <Link
+                href="https://www.linkedin.com/in/smriti-maharjan-215271253/"
+                target="_blank"
+              >
                 <i className="ri-linkedin-box-fill"></i>
               </Link>
             </div>
@@ -55,7 +57,7 @@ const Contact = () => {
         </Row>
       </Container>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
